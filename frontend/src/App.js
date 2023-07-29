@@ -29,7 +29,7 @@ const App = () => {
     }
   };
 
-  useEffect(() => getSavedImages(), []);
+  useEffect(() => { getSavedImages() }, []);
 
 /*   const handleSearchSubmit = (e) => {
     e.preventDefault();
